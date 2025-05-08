@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Галерея місцевостей</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #333366;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .place {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 10px;
+      width: 250px;
+    }
+    .place img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .caption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .back {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Галерея місцевостей</h1>
+
+  <div class="gallery">
+    <div class="place">
+      <img src="https://img.freepik.com/free-photo/aokigahara-forest-dark-style_23-2151542387.jpg?semt=ais_hybrid&w=740" alt="Храм">
+      <div class="caption">Храм забутих богів</div>
+    </div>
+    <div class="place">
+      <img src="https://images.prom.ua/4741597025_w600_h600_4741597025.jpg" alt="Озеро">
+      <div class="caption">Озеро сяючого дерева</div>
+    </div>
+    <div class="place">
+      <img src="https://img.goodfon.ru/wallpaper/big/8/ed/drakon-peschera-lair-svet.webp" alt="Печера">
+      <div class="caption">Печера дракона</div>
+    </div>
+    <div class="place">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTV_cGCibxukW80IEhD4h3nZ3EH0CfFzamSg&s">
+      <div class="caption">Лабіринт часу</div>
+    </div>
+  </div>
+
+  <a class="back" href="index.html">← Назад до мапи</a>
+</body>
+</html>
